@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="todo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   <header>
+    <nav>
+        <div class="logo">
+            Todo<span>li</span>st</h1>
+        </div>
+        <div class="menu">
+            <a href="/home.html">Home</a>
+            <a href="">About</a>
+            <a href="">Gallery</a>
+            <a href="">Contact</a>
+            <!-- <a href="">login</a> -->
+        </div>
+        <div class="login"><i class="fa fa-search"></i>
+            <a href="">login</a>
+        </div>
+    </nav>
+    <section class="section-container">
+        <div class="container">
+            
+            <input type="text" class="btn" id="inputvalue" placeholder="enter your name ">
+            <button class="btn" id="btns">Add user</button>
+        </div>
+        <div class="display">
+            <table class="table">
+            <thead>
+                <tr>
+                    <th scope="row">#</th>
+                    <th scope="row ">YourName</th>
+                    <th scope="row">Action</th>
+                    <!-- <th scope="row">Handle</th> -->
+                </tr>
+                
+            </thead>
+            <tbody id="records">
+                
+                <!-- <tr>
+                    <th scope="row">1</th>
+                    <td>Sagar</td> 
+                    <td><i class=" btn text-white fa fa-edit btn-info mx-3" ></i></td>
+                    <td><i class=" btn btn danger text white fa fa-trash-o"></i></td>
+                </tr> -->
+            </tbody>
+        </table>
+    </div>
+</section>
+</header>
+</body>
+</html>
+<script src="todo.js"></script>
